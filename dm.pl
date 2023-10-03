@@ -40,7 +40,7 @@ my $ADMINARCHIVENAME = "control.tar.gz";
 my $DATAARCHIVENAME  = "data.tar";
 my $ARCHIVEVERSION   = "2.0";
 
-our $compression   = "gzip";
+our $compression   = "lzma";
 our $compresslevel = -1;
 Getopt::Long::Configure("bundling", "auto_version");
 GetOptions(
